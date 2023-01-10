@@ -10,6 +10,8 @@
 
 ## General Programming Concepts
 
+## General Concepts
+
 ### Architecture
 
 ### Design Patterns
