@@ -11,6 +11,8 @@
 ## General Programming Concepts
 
 ## General Concepts
+- SOLID Principles
+- DRY code
 
 ### Architecture
 
