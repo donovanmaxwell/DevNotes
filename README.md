@@ -1,2 +1,2 @@
 # DevNotes
-A collection of notes related to programming
+A collection of notes, links, and pictues related to programming. 
