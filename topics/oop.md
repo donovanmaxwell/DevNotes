@@ -29,3 +29,15 @@ Object-oriented programming is primarily about isolating concepts into their own
 4. Polymorphism
     - Basically the combination of two words “Poly” which means "Many" and “Morph” which means "Forms".
     - The ability to redefine methods for derived classes.
+
+## **Important Concepts**
+
+### Objects
+An Object refers to an independent entity that contains both data (instance variables) and behavior (methods). Generally, each object has clearly defined boundaries and behaviors and is only aware of the objects that it needs to perform its task. 
+
+The state of an object is the value of its internal variables at any given point in time.
+
+### Classes
+A class contains the blueprint needed to create objects, and also defines the objects' variables and methods. An object is created on the basis of the class constructor.
+
+A class defines the types of objects that can be created from it. It contains instance variables describing the object's data, a constructor or constructors used to create it, and methods that define its behavior.
