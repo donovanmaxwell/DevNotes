@@ -7,7 +7,6 @@
 
 
 ## **Java**  
----
 
 
 
@@ -22,7 +21,6 @@
 
 
 ## **General Programming Concepts**  
----
 
 
 
@@ -43,12 +41,10 @@
 
 
 ## **Data Structures & Algorithms**  
----
 
 
 
 ## **Databases**  
----
 
 
 
@@ -68,7 +64,6 @@
 
 
 ## **Front End Web Development**  
----  
 
 ### **HTML**  
   
@@ -80,7 +75,6 @@
   
   
 ## **Back End Web Development**  
----  
 
 ### **NodeJS**  
 
@@ -88,7 +82,6 @@
 
 
 ## **Version Control Systems**  
----
 
 
 
@@ -106,7 +99,6 @@
 
 
 ## **Terminal Commands**  
----
 
 ### **Windows Command Line Commands**  
 
