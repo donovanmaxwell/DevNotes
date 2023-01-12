@@ -1,63 +1,116 @@
-# DevNotes
+# **DevNotes**
 
-### **Markdown**
+### **Markdown**  
 
-- [Markdown](./topics/markdown.md)
+- [Markdown](./topics/markdown.md)  
 
 
 
 ## **Java**  
+---
 
 
 
 
 
 
-### **Maven**
+### **Maven**  
 
-### Spring & Spring Boot
-- [Spring Data JPA](./topics/springdatajpa.md)
+### Spring & Spring Boot  
+- [Spring Data JPA](./topics/springdatajpa.md)  
 
 
 
 ## **General Programming Concepts**  
+---
 
 
 
-### **Object-Oriented Programming**
+### **Object-Oriented Programming**  
 
-- [Object-Oriented Programming](./topics/oop.md)
+- [Object-Oriented Programming](./topics/oop.md)  
 
-### **Functional Programming**
+### **Functional Programming**  
 
-### **General Concepts**
+### **General Concepts**  
 - SOLID Principles
 - DRY code
 
-### **Architecture**
+### **Architecture**  
 
 ### **Design Patterns**  
 
 
 
-## **Data Structures & Algorithms**
+## **Data Structures & Algorithms**  
+---
 
 
 
 ## **Databases**  
-
-
-### **SQL**
-- [SQL](./topics/sql.md)
+---
 
 
 
-## Version Control Systems  
+### **SQL**  
+- [SQL](./topics/sql.md)  
+
+### **PostgreSQL**  
+
+### **SQLite**  
+
+### **MongoDB**  
+
+### **NoSQL**
+
+### **MariaDB**
 
 
 
-### Git
+## **Front End Web Development**  
+---  
 
-- [GIT] (./topics/git.md)
+### **HTML**  
+  
 
-### Github
+### **CSS**  
+  
+  
+### **Javascript**  
+  
+  
+## **Back End Web Development**  
+---  
+
+### **NodeJS**  
+
+
+
+
+## **Version Control Systems**  
+---
+
+
+
+### Git  
+
+- [GIT](./topics/git.md)  
+
+### Github  
+  
+
+### Bitbucket  
+  
+### GitLab  
+
+
+
+## **Terminal Commands**  
+---
+
+### **Windows Command Line Commands**  
+
+
+### **Linux Terminal Commands**  
+
+- [Linux](./topics/commands-linux.md)

@@ -4,7 +4,8 @@ Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
 
 This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
 
-## Basic Syntax
+## **Basic Syntax**  
+---
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
 
@@ -54,7 +55,8 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ![alt text](https://www.markdownguide.org/assets/images/tux.png)
 
-## Extended Syntax
+## **Extended Syntax**  
+--- 
 
 These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 
@@ -116,4 +118,8 @@ H~2~O
 
 ### Superscript
 
-X^2^
+### Emphasis
+
+Surround text to be emphasized with underscores or single asterisks  
+_emphasized text_  
+*more emphasized text*  
