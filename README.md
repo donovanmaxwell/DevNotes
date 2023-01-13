@@ -4,25 +4,14 @@
 
 - [Markdown](./topics/markdown.md)  
 
-
-
 ## **Java**  
-
-
-
-
-
 
 ### **Maven**  
 
 ### Spring & Spring Boot  
 - [Spring Data JPA](./topics/springdatajpa.md)  
 
-
-
 ## **General Programming Concepts**  
-
-
 
 ### **Object-Oriented Programming**  
 
@@ -38,20 +27,18 @@
 
 ### **Design Patterns**  
 
-
-
 ## **Data Structures & Algorithms**  
-
-
 
 ## **Databases**  
 
-- [Data Type Conversion Chart](./topics/db_data_types.md)
+- [Data Type Conversion Chart](./topics/databases/db_data_types.md)
 
 ### **SQL**  
-- [SQL](./topics/sql.md)  
+- [SQL](./topics/databases/sql/sql.md)  
 
 ### **PostgreSQL**  
+
+- [SQL](./topics/databases/postgresql/postgresql.md)
 
 ### **SQLite**  
 
@@ -61,29 +48,19 @@
 
 ### **MariaDB**
 
-
-
 ## **Front End Web Development**  
 
 ### **HTML**  
   
-
 ### **CSS**  
-  
-  
+    
 ### **Javascript**  
-  
-  
+    
 ## **Back End Web Development**  
 
 ### **NodeJS**  
 
-
-
-
 ## **Version Control Systems**  
-
-
 
 ### Git  
 
@@ -91,17 +68,13 @@
 
 ### Github  
   
-
 ### Bitbucket  
   
 ### GitLab  
 
-
-
 ## **Terminal Commands**  
 
 ### **Windows Command Line Commands**  
-
 
 ### **Linux Terminal Commands**  
 
