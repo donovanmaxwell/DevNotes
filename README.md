@@ -38,7 +38,8 @@
 
 ### **PostgreSQL**  
 
-- [SQL](./topics/databases/postgresql/postgresql.md)
+- [PostgreSQL Fundamentals](./topics/databases/postgresql/postgresql.md)
+- [PostgreSQL Insert Statements](./topics/databases/postgresql/postgresql.md)
 
 ### **SQLite**  
 
