@@ -1,7 +1,6 @@
 # **SQL Databases**
 
 ## **Glossary**
----
 
 Cells
 - The points where columns and rows interact
@@ -80,8 +79,7 @@ VIEW
     2. An alternative to queries that are frequently run in the DB.
 
 
-## **Database Normalization**  
----
+## **Database Normalization**
 
 **Form**
 - Each step of normalization process

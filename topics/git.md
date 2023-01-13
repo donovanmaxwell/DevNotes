@@ -20,7 +20,6 @@ A "pull request" (essentially a request to merge) is not the same as the "pull" 
 A "pull request" is basically a note (request) to others to notify the that you have made changes on a branch and want (request) those changes be merged into the main or other relevant branch. Merges to relevant branch usually happen, if approved, after a short discussion & quality check & inspection of updated code.
 
 ## **Commands**  
----
 
 ### **Setup & Initialize**  
   
@@ -62,13 +61,15 @@ Rename local *master* branch into *main*
 Add a git URL as an alias  
 `git remote add origin [URL]`
 
+Fetch and merge any commits from the tracking remote branch  
+`git pull origin master`  
+
 ### **Inspect & Compare**  
   
 Show commit history for currently active branch  
 `git log` *can use hash codes found here in 'git checkout' command to restore one of these points*  
 
 ## **Procedures**
----
 
 ### **Changing Master Branch Name**  
 Example: Change Master to Main
@@ -85,3 +86,4 @@ Example: Change Master to Main
     - Update references to the old branch in documentation
 4. Once Step 3 tasks are complete, can delete master branch.  
 `git push origin --delete master`
+
