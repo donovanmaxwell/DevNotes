@@ -25,13 +25,19 @@ Maven configuration file
 
 Need to add Spring Boot, SPring Data JPA, and driver for database (PostgreSQL, SQLite, SQL, etc)
 
+### **`@Entity`** 
+A class of type entity indicated a class that, at an abstract level, is correlated with a table in the database. Each object instantiated by this class indicates a tuple of the table itself, containing the information of the latter. 
+
+- [Object-relational mapping](./topics/orm.md)
+- [ORM Data Access](https://docs.spring.io/spring-framework/docs/current/reference/html/data-access.html#orm) - Spring Framework Docs 
+
 ### **Tables & Classes** 
 - Need to specify Table and Entity annotations in class
 - Tables are configured as Java Classes
 - Instance variables in class need to match table column entries
-- Use @Entity from javax.persistence.Entity package, not from Hibernate
-- @Entity maps the class to a table in the database
-- **BEST PRACTICE** specify name of the entity, i.e., @Entity(name="Student") for Student.java (default does this automatically)
+- Use `@Entity` from `javax.persistence.Entity` package, not from Hibernate
+- `@Entity` maps the class to a table in the database
+- **BEST PRACTICE** specify name of the entity, i.e., `@Entity(name="Student")` for Student.java (default does this automatically)
 - Need to specify Primary Key with @Id annotation above ID instance variable
 
 ### **Configuration**  

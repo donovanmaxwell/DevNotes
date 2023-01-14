@@ -9,7 +9,9 @@
 ### **Maven**  
 
 ### Spring & Spring Boot  
-- [Spring Data JPA](./topics/springdatajpa.md)  
+
+- [Spring Basics](./topics/spring/spring_basics.md)
+- [Spring Data JPA](./topics/spring/springdatajpa.md)  
 
 ## **General Programming Concepts**  
 
