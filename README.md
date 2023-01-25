@@ -29,8 +29,8 @@
 
 ### **Design Patterns**  
 
-- [Design Patterns Fundamentals](.topics/DesignPatterns/design_patterns.md)
-- [Builder Pattern](.topics/DesignPatterns/builder.md)
+- [Design Patterns Fundamentals](./topics/DesignPatterns/design_patterns.md)
+- [Builder Pattern](./topics/DesignPatterns/builder.md)
 
 ## **Data Structures & Algorithms**  
 
