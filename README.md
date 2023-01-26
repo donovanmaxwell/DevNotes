@@ -29,13 +29,16 @@
 
 ### **Design Patterns**  
 
-- [Design Patterns Fundamentals](./topics/DesignPatterns/design_patterns.md)
 - [Builder Pattern](./topics/DesignPatterns/builder.md)
+- [DAO](./topics/DesignPatterns/dao.md)
+- [Design Patterns Fundamental](./topics/DesignPatterns/design_patterns.md)
+- [ORM](./topics/DesignPatterns/orm.md)
+- [ORM vs DAO](./topics/DesignPatterns/orm_dao.md)
 
 ## **Data Structures & Algorithms**  
 
 ## **Databases**  
-
+- [Database Fundamentals](./topics/databases/databaseFundamentals.md)
 - [Data Type Conversion Chart](./topics/databases/db_data_types.md)
 
 ### **SQL**  

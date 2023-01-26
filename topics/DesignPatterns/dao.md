@@ -1,0 +1,5 @@
+# **Data Access Object**
+
+**DAO:** A Data Access Object is a *pattern* that is often followed when an application needs to interact with some persistent data store (often a database). The DAO provides a series of operations to the rest of the application without the application needing to know the details of the data store. For example, there might be operations to retrieve a subset of data, update the data, or remove the data. It is much more generic than ORM - it simply is an object an application uses to retrieve data.
+
+A DAO is an object that abstracts the implementation of a persistent data store away from the application and allows for simple interaction with it. A ORM is a robust library/API that provides a bunch of tools to save/retrieve an object directly to/from the database without having to write your own SQL statements.
