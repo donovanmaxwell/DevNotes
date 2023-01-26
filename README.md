@@ -21,9 +21,10 @@
 
 ### **Functional Programming**  
 
-### **General Concepts**  
-- SOLID Principles
+### **General Concepts** 
 - DRY code
+- Separation of Concerns 
+- SOLID Principles
 
 ### **Architecture**  
 
