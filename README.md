@@ -35,6 +35,7 @@
 - [Design Patterns Fundamental](./topics/DesignPatterns/design_patterns.md)
 - [ORM](./topics/DesignPatterns/orm.md)
 - [ORM vs DAO](./topics/DesignPatterns/orm_dao.md)
+- [Repository](./topics/DesignPatterns/repository.md)
 
 ## **Data Structures & Algorithms**  
 
