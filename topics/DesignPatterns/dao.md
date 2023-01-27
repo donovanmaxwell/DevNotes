@@ -32,3 +32,50 @@ If using a service-based application approach you might see the services as the 
 - DEO can't be implemented using a repository. However, a repository can use a DAO for accessing underlying storage. 
 
 The repository pattern encourances a domain-driven design, providing an easy understanding of the data structure. 
+
+## **DAO Pattern Sample**
+
+Here, the JPA EntityManager interface is used to interact with underlying storage and provide a data access mechanism for the User domain.
+
+1. Create domain class:
+```Java
+public class User {
+    private Long id;
+    private String userName;
+    private String firstName;
+    private String email;
+
+    // getters & setters, etc.
+}
+```
+
+2. Create the `UserDao` interface that privides simple CRUD operations for the `User` domain.
+```Java
+public interface UserDao {
+    void create (User user);
+    User read(Long id);
+    void update(User user);
+    void delete(String userName);
+}
+```
+
+3. Create the `UserDaoImpl` class that implements the `UserDao` interface:
+```Java
+public class UserDaoImpl implements UserDao {
+    private final EntityManager entityManager;
+
+    @Override
+    public void create(User user) {
+        entityManager.persist(User);
+    }
+
+    @Override
+    public User read(long id) {
+        return entityManager.find(User.class, id);
+    }
+
+    // ...
+}
+```
+
+
