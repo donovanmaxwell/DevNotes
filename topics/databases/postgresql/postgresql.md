@@ -1,5 +1,41 @@
 # **PostgreSQL**  
 
+## **Setup**
+
+### **Configure Path in Environment Variables for `psql` Shell**
+
+- Right click on Windows icon and click “System”
+
+- Scroll down to “Advanced System Settings”
+
+- Click Environment Variables
+
+- In “System variables”, select "Path" and click Edit:
+
+    - Click "New" to insert a new path variable
+
+    - Enter location of `psql.exe` file
+        - Example: `C:\Program Files\PostgreSQL\15\bin\psql.exe`
+- Click Ok for each window opened during the process
+
+### **PSQL Shell User Authentication Problem**
+When first using `psql` shell, it initially is looking for a user that doesn't actually exist on the PostgreSQL server. To correct this so that the `psql` shell uses the correct username: 
+
+- Right click on Windows icon and click “System”
+
+- Scroll down to “Advanced System Settings”
+
+- Click Environment Variables
+
+- In “System variables”, click “New”:
+
+    - Variable Name: PGUSER
+
+    - Variable Value: postgres
+
+If command prompt is currently running, close and reopen it. Going forward, `psql` will use postgres as the user name.
+
+
 ## **Fundamentals**  
 
 ### **Constraints**  
