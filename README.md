@@ -6,6 +6,7 @@
 
 ## **Java**  
 
+- [Serialization](./topics/serialization.md)
 ### **Maven**  
 
 ### Spring & Spring Boot  
