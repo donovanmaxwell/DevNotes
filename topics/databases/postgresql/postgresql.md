@@ -38,6 +38,22 @@ If command prompt is currently running, close and reopen it. Going forward, `psq
 
 ## **Fundamentals**  
 
+### **Helpful Commands**
+
+- `\?` Shows list of backslash commands available in `psql` shell
+- `\h` Shows commands avaible in Help menu
+- `\l` Lists databases on a server
+- `\d` Lists all tables, views, and sequences in database
+    - `\d table_name` Lists columns and their datatypes inside specified table
+- `\dt` List all tables in a database
+- `DROP DATABASE customer` Deletes specified database
+    - This command is **dangerous**!
+    - It will delete the entire databse immediately
+- `DROP TABLE person` Deletes specified database
+    - This command is **dangerous**!
+    - It will delete the entire databse immediately
+
+
 ### **Constraints**  
   
 `NOT NULL`  
