@@ -1,5 +1,50 @@
 # **Database Fundamentals**
 
+## **Terms & Concepts**
+
+### **Data Transport Object**
+
+### **Difference Between DTO & POJO**
+
+POJO describes an approach to programming (good old fashioned OOP). 
+
+DTO is a pattern that is used to "transfer data" using objects.
+
+While POJOs can be treated as DTOs, you run the risk of creating an anemic domain model if you do so. Additionally, there is a mismatch in structure, since DTOs should be designed to transfer data, not to prepresent the true structure of the business domain. The result of this is that DTOs tend to be more flat than your actual domain.
+
+In a domain of any resonable complexity, your're almost always better off creating separate domain POCOs and translating them to DTOs.
+
+### **Domain Object**
+
+Objects from the business specific area that represent something meaningful to the domain expert. Domain objects are mostly represented by entities and value objects. Generally speaking, most objects that live in domain layer contribute to the model and are domain objects. 
+
+An instance of a class that is related to your domain. 
+
+A DTO's only purpose is to transfer state and should have no behavior, except for storage and trtrieval of its own data (accessors and mutators). It is an object that carries data between processes in order to reduce the number of method calls. 
+
+
+### **Entity**
+
+An object fundamentally defined not by its attributes, but by a thread of continutity and identity. (Meaning it must have Id). They hold data and have some internal knowledge of where it came from and where it's going to be saved, updated, etc.
+
+### **POJO**
+
+Plain Old %Insert_Language_Of_Choice_Here% Object
+
+A simple object without complicated logic, usually it has just a few properties and is used with ORM or as a Data Transfer Object. 
+
+References regular objects rather than framework-y things like Entity Beans.
+
+Generally used as DTOs to carry data between layers, and the data is then commonly used to pupulate a domain object/entity.
+
+### **Repository**
+
+A Class that speaks to a data storage from one side (e.g. a database, a data service, or ORM) and to the service, UI, business layer or any other requesting body. It usually hides away all the data-related stuff (like replication, connection pooling, key constraints, transactions, etc) and makes it simple to just work with data. 
+
+### **Service**
+
+Software that provides some functionaliy, usually via public API. Depending on the layer, it can be a RESTful self-contained container, or class that allows you to find a particular instance of needed type. Usually provides a request-response functionality.
+
 ## **Interacting With Databases**
 
 ### JDBC
