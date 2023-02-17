@@ -2,6 +2,29 @@
 
 ## **Terms & Concepts**
 
+### **Index**
+
+ Object that allows you to find specific data in a table. Work best when searching for a specific term.
+
+ Types:
+
+* Balanced-Tree (B-Tree) - Works like a tree with branches and leaves. Usually have less than 5 levels. Default type of index. Index on a column is not used if the query performs a function on that column.
+  
+    * `CREATE INDEX index_name ON table_name (columns);`
+    * `CREATE INDEX idx_emp_id ON employee (id);`
+
+* Function-based Index - Index created on the results of a function or expression.
+
+    * `CREATE INDEX idx_emp_monthsalary ON employee (annual_salary / 12);`
+
+* Clustered Index - Data in the table stored in the same way as data in the index. A type of index that defines how the data is stored in the table. Specifies that data in the table is stored in the same order as data in the index. Can only be one clustered index on a table.
+
+    * `CREATE CLUSTERED INDEX idx_cust_id ON customer (cust_id);`
+
+* Bitmap Index (Oracle) - Looks like a 2-dimensional map or table of values. Only available in Oracle SQL. 
+
+    * `CREATE BITMAP INDEX idx_emp_status ON employee (status);`
+
 ### **Data Transport Object**
 
 ### **Difference Between DTO & POJO**
