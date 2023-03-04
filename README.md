@@ -14,7 +14,7 @@
 - [Spring Basics](./topics/spring/spring_basics.md)
 - [Spring Data JPA](./topics/spring/springdatajpa.md)  
 
-## **General Programming Concepts**  
+## **General Programming**  
 
 ### **Object-Oriented Programming**  
 
@@ -62,15 +62,17 @@
 
 ### **MariaDB**
 
-## **Front End Web Development**  
+## **Web Development**  
+
+### **HTTP**
+
+- [HTTP](./web/http.md) 
 
 ### **HTML**  
   
 ### **CSS**  
     
 ### **Javascript**  
-    
-## **Back End Web Development**  
 
 ### **NodeJS**  
 
